@@ -9,8 +9,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [1] = LAYOUT(
         KC_1,          KC_2,          KC_3,           KC_4,           KC_5,    KC_6,    KC_7,           KC_8,         KC_9,           KC_0,
-        CTL_T(KC_GRV), KC_TRNS,       GUI_T(KC_PGUP), SFT_T(KC_PGDN), KC_TRNS, KC_LEFT, SFT_T(KC_DOWN), GUI_T(KC_UP), ALT_T(KC_RGHT), CTL_T(KC_SCLN),
-        KC_TRNS,       KC_TRNS,       KC_VOLU,        KC_VOLD,        KC_TRNS, KC_MINS, KC_EQL,         KC_LBRC,      KC_RBRC,        KC_BSLS,
+        CTL_T(KC_GRV), KC_TRNS,       GUI_T(KC_VOLU), SFT_T(KC_VOLD), KC_TRNS, KC_LEFT, SFT_T(KC_DOWN), GUI_T(KC_UP), ALT_T(KC_RGHT), CTL_T(KC_SCLN),
+        KC_TRNS,       KC_TRNS,       KC_TRNS,        KC_TRNS,        KC_TRNS, KC_MINS, KC_EQL,         KC_LBRC,      KC_RBRC,        KC_BSLS,
         KC_ESC,        KC_TRNS,       KC_TRNS,        KC_ESC
     )
 };
